@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #cee7ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgb(204, 197, 197);
     padding: 30px;
     border-radius: 10px;
     border: 2px solid #00008B; 
@@ -36,7 +36,7 @@ input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #7FFFD4; 
+    background-color: #0b1814; 
     border: none;
     color: white;
     border-radius: 5px;
@@ -45,13 +45,13 @@ button {
 }
 
 button:hover {
-    background-color: #00FA9A; 
+    background-color: rgb(26, 34, 31); 
 }
 
 a {
     display: inline-block;
     margin-top: 10px;
-    color: #66CDAA;
+    color: #0b1814;
     text-decoration: none;
     font-size: 14px;
 }
@@ -75,8 +75,19 @@ a:hover {
 }
 
 .erro {
-    color: red;
-    margin-bottom: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.erro::before {
+    content: "⚠️ ";
+    margin-right: 5px;
 }
 
 .sucesso {

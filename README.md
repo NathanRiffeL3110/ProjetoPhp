@@ -1,4 +1,4 @@
-# Projeto A1 - Sistema de Cadastro de Usuários (PHP) -Nathan Riffel 
+# Projeto A1 - Sistema de Cadastro de Usuários (PHP) -Nathan Riffel-Ciecia da Computação-Unoesc São Miguel
 ## 📚 Sobre o projeto
 Projeto desenvolvido para a atividade A1, com aplicação dos conteúdos aprendidos tanto em aula quanto com alguns tutoriais do youtube.
 

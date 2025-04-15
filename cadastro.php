@@ -19,7 +19,7 @@ Sessao::iniciar();
         <input type="password" name="senha" placeholder="Senha" required>
         <button type="submit">Cadastrar</button>
     </form>
-    <a href="login.php">Já tem conta? Login</a>
+    <a href="login.php">Já possui conta? Login</a>
 </div>
 </body>
 </html>

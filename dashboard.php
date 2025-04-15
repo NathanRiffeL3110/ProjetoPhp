@@ -20,8 +20,8 @@ if (!$usuario) {
 <body>
 <div class="container">
     <h2>Bem-vindo, <?php echo htmlspecialchars($usuario); ?>!</h2>
-    <p>Você fez login com sucesso.</p>
-    <a href="cadastro.php">Deseja cadastrar um novo usuário</a><br><br>
+    <p>Login realizado com sucesso</p>
+    <a href="cadastro.php">Deseja cadastrar um novo usuário?</a><br><br>
     <a href="logout.php" class="btn-sair">Sair</a>
 </div>
 </body>
